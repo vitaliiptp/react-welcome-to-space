@@ -556,6 +556,29 @@ as first-child has extra specificity*/
     }
 }
 
+/* People in Space now */
+.people {
+    background-image: url(./assets/background/international-space-station/bg-img-isp.png);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+@media (min-width: 35rem) {
+    .people {
+        background-position: center center;
+        background-image: url(./assets/background/international-space-station/bg-img-isp.png);
+        background-size: cover;
+    }
+}
+
+@media (min-width: 45rem) {
+    .people {
+        background-image: url(./assets/background/international-space-station/bg-img-isp.png);
+        background-size: cover;
+        background-position: bottom center;
+    }
+}
+
 
 /* Picture of the day */
 .picture-of-the-day {
