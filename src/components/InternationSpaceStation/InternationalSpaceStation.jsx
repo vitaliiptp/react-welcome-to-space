@@ -18,6 +18,13 @@ const InternationalSpaceStation = () => {
                     </Link>
                 </div> 
 
+                <div className="AllAstronauts">
+                    <Link to="/AllAstronauts" style={{ textDecoration: "none" }}>
+                        <a className="large-button uppercase ff-serif text-dark bg-white">All Astronauts until 2015</a>
+                    </Link>
+                </div> 
+
+
         </div>
     );
 };

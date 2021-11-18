@@ -11,10 +11,8 @@ const HomePage = () => {
                     </h1>
 
                     <p  className="text-accent fs-500 ff-sans-cond letter-spacing-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-                        ipsam libero quaerat sapiente sunt tempora ullam. Debitis harum
-                        tempora vitae. Ad alias aut dolores id labore laborum nemo optio
-                        ullam!{" "}
+                    “I've loved the stars too fondly to be fearful of the night.”
+                    ― Galileo
                     </p>
                 </div>
                 <div className="">

@@ -7,6 +7,7 @@ import HomePage from "./components/HomePage/HomePage";
 import Planet from "./components/Planet/Planet";
 import InternationalSpaceStation from "./components/InternationSpaceStation/InternationalSpaceStation";
 import ISS from "./components/InternationSpaceStation/ISS/indexISS";
+import AllAstronauts from "./components/InternationSpaceStation/ISS/alltheAstronautsUntil2015"
 import People from "./components/InternationSpaceStation/PeopleInSpace";
 import {useState} from "react";
 
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/isp" component={InternationalSpaceStation} />
             <Route path="/map" component={ISS} />
             <Route path="/people" component={People} />
+            <Route path="/astronauts" component={AllAstronauts} />
           </Switch>
         </div>
       </Router>
