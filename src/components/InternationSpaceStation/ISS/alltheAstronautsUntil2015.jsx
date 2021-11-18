@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap'
 
 
 
 function App() {
 
   // aca va my useState
-  const [returnedData, setReturnedData] = useState (['JOOlaaaa, jola , jola jola']);
+  const [returnedData, setReturnedData] = useState ([]);
 
 
  
@@ -24,7 +25,7 @@ function App() {
     console.log('In getData()');
     console.log(newData);
     setReturnedData(newData.map((person) =>{
-      return <li>{person.name} {person.nationality} {person.seccion} {person.mission_titel}</li>
+      return <li>{person.name} {person.nationality} {person.selection} {person.mission_title}</li>
     }))
 
   }
@@ -36,8 +37,8 @@ function App() {
   //getData('/db');
 
   return (
-    <div className="App">
-      <button onClick={()=> getData('/astronauts')}> Haga click aca </button>
+    <div className="astronauts" style={{color:'gray', height:'100vh', width : '100vw', textDecoration:'none', display: 'flex', flexDirection: 'column', alignItems:'center', overflow:'scroll'}}>
+      <Button variant="secondary" size="lg" onClick={()=> getData('/astronauts')}> Astronauts Here </Button>
      {returnedData}
     </div>
   );

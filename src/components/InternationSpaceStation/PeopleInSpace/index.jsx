@@ -22,7 +22,7 @@ function People() {
   }
   
   return (
-    <div className="people_in_space" style={{color:'white',}}> 
+    <div className="people_in_space" style={{color:'white', height:'100vh', width : '100vw', display: 'flex', flexDirection: 'column', alignItems:'center',}}> 
 
       
       {peopleINSpace.map((gente) => {

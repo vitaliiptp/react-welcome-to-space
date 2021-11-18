@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const InternationalSpaceStation = () => {
     return (
-        <div className="flex-container grid-container" >
+        <div className="flex-container grid-container" style={{display:'flex', justifyContent:'space-around' }} >
 
                 <div className="ISS__Button">
                     <Link to="/map" style={{ textDecoration: "none" }}>
@@ -19,7 +19,7 @@ const InternationalSpaceStation = () => {
                 </div> 
 
                 <div className="AllAstronauts">
-                    <Link to="/AllAstronauts" style={{ textDecoration: "none" }}>
+                    <Link to="/astronauts" style={{ textDecoration: "none" }}>
                         <a className="large-button uppercase ff-serif text-dark bg-white">All Astronauts until 2015</a>
                     </Link>
                 </div> 
