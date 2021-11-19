@@ -14,7 +14,7 @@ const InternationalSpaceStation = () => {
 
                  <div className="People_InSpace">
                     <Link to="/people" style={{ textDecoration: "none" }}>
-                        <a className="large-button uppercase ff-serif text-dark bg-white">How Many People Are In Space Right Now</a>
+                        <a className="large-button uppercase ff-serif text-dark bg-white">People In Space Now </a>
                     </Link>
                 </div> 
 

@@ -7,8 +7,8 @@ app.use(express.json());
 
 const connection = new MySql({
     host: 'localhost',
-    user: 'root',
-    password: 'Roraima.284',
+    user: '',
+    password: '',
     database: 'database_astronautas'
 });
 

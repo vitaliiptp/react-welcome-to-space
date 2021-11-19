@@ -25,7 +25,7 @@ function App() {
     console.log('In getData()');
     console.log(newData);
     setReturnedData(newData.map((person) =>{
-      return <li>{person.name} {person.nationality} {person.selection} {person.mission_title}</li>
+      return <li> Name: {person.name}, Nationality: {person.nationality}, Workin in Selection: {person.selection}, Mission Title: {person.mission_title}</li>
     }))
 
   }
@@ -37,7 +37,7 @@ function App() {
   //getData('/db');
 
   return (
-    <div className="astronauts" style={{color:'gray', height:'100vh', width : '100vw', textDecoration:'none', display: 'flex', flexDirection: 'column', alignItems:'center', overflow:'scroll'}}>
+    <div className="astronauts" style={{color:'white', height:'100vh', width : '100vw', textDecoration:'none', display: 'flex', flexDirection: 'column', alignItems:'center', overflow:'scroll'}}>
       <Button variant="secondary" size="lg" onClick={()=> getData('/astronauts')}> Astronauts Here </Button>
      {returnedData}
     </div>
