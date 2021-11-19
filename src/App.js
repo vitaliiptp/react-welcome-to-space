@@ -9,6 +9,9 @@ import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/ContactForm/ContactForm";
 import MainContext from "./context/MainContext";
 import ISS from "./components/InternationSpaceStation/ISS/indexISS";
+import AllAstronauts from "./components/InternationSpaceStation/ISS/alltheAstronautsUntil2015"
+import People from "./components/InternationSpaceStation/PeopleInSpace";
+import {useState} from "react";
 import LoginFormModal from "./components/LoginFormModal/LoginFormModal";
 import SignUpFormModal from "./components/SignUpFormModal/SignUpFormModal";
 import "./App.css";
@@ -101,6 +104,8 @@ export default function App() {
             <Route path="/isp" component={InternationalSpaceStation} />
             <Route path="/contact" component={ContactForm} />
             <Route path="/map" component={ISS} />
+            <Route path="/people" component={People} />
+            <Route path="/astronauts" component={AllAstronauts} />
           </Switch>
           <Footer
             handleShowContactModal={handleShowContactModal}

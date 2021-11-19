@@ -32,7 +32,7 @@ function ISS() {
  
 
   return (
-    <div className="ISS">{!loading ?  <Map center={{lat: latitude, lng:longitude}} zoom={4} /> : <h1>Loading...</h1>  }
+    <div className="ISS" style={{height:'100vh', width : '100vw'}} >{!loading ?  <Map center={{lat: latitude, lng:longitude}} zoom={4} /> : <h1>Loading...</h1>  }
      
      
     </div>
