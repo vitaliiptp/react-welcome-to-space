@@ -11,12 +11,17 @@ const HomePage = () => {
             <span className="d-block fs-900 ff-serif text-white">Space</span>
           </h1>
 
-          <p className="text-accent fs-500 ff-sans-cond letter-spacing-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            ipsam libero quaerat sapiente sunt tempora ullam. Debitis harum
-            tempora vitae. Ad alias aut dolores id labore laborum nemo optio
-            ullam!{" "}
-          </p>
+                    <p  className="text-accent fs-500 ff-sans-cond letter-spacing-3">
+                    “I've loved the stars too fondly to be fearful of the night.”
+                    ― Galileo
+                    </p>
+                </div>
+                <div className="">
+                    <Link to="/solar-system" style={{ textDecoration: "none" }}>
+                        <a className="large-button uppercase ff-serif text-dark bg-white">Start</a>
+                    </Link>
+                </div>
+            </div>
         </div>
         <div className="">
           <Link to="/solar-system" style={{ textDecoration: "none" }}>
